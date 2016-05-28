@@ -42,6 +42,8 @@ a {
   font-weight: 400;
   text-align: center;
   padding-top: 130px;
+  font-weight: bold;
+  color: #212121
 }
 
 #homepageTitle {
@@ -49,15 +51,65 @@ a {
   margin-bottom: 115px;
 }
 
-@media screen and (max-width: 991px) {
+/*When screen is at extra small*/
+@media screen and (max-width: 767px) {
   .catagory-card {
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 200px;
     margin-bottom: 25px;
   }
 
+  .cardTitle {
+    padding-top: 75px;
+    font-size: 23px;
+  }
+
   #homepageTitle {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+  }
+}
+
+/*When screen is at small*/
+@media screen and (min-width: 768px) {
+
+  .catagory-card {
+    height: 250px;
+    margin-bottom: 25px;
+  }
+
+  .cardTitle {
+    padding-top: 90px;
+    font-size: 25px;
+  }
+
+  #homepageTitle {
+    margin-bottom: 100px;
+  }
+}
+
+/*When screen is at medium*/
+@media screen and (min-width: 992px) {
+  .catagory-card {
+    height: 300px;
+  }
+
+  .cardTitle {
+    padding-top: 110px;
+    font-size: 30px;
+  }
+}
+
+/*When screen is at large*/
+@media screen and (min-width: 1200px) {
+  .catagory-card {
+    height: 400px;
+  }
+
+  .cardTitle {
+    padding-top: 140px;
+    font-size: 38px;
+  }
+
+  #homepageTitle {
+    font-size: 50px;
   }
 }
