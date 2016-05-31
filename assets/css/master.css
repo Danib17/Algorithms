@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 
+/*Global*/
 body, html {
   padding-top: 3%;
   padding-left: 3%;
@@ -17,6 +18,8 @@ body {
 a {
   text-decoration: none;
 }
+
+/*Classes*/
 
 .homeIconBtn {
   width: 50px;
@@ -46,15 +49,17 @@ a {
   color: #212121
 }
 
+.cpywrt {
+  color: #03A9F4;
+}
+
+/*IDs*/
 #homepageTitle {
   color: #03A9F4;
   margin-bottom: 115px;
 }
 
-.cpywrt {
-  color: #03A9F4;
-}
-
+/*Screen Resolutions*/
 /*When screen is at extra small*/
 @media screen and (max-width: 767px) {
   .catagory-card {
