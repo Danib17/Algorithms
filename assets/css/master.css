@@ -56,10 +56,21 @@ a:link, a:visited, a:active, a:hover{
   color: #03A9F4;
 }
 
+.workspace {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
 /*IDs*/
 #homepageTitle {
   color: #03A9F4;
   margin-bottom: 115px;
+}
+
+#homepageTitle-workspace {
+  color: #03A9F4;
+  margin-bottom: 40px;
 }
 
 /*Screen Resolutions*/
@@ -109,7 +120,7 @@ a:link, a:visited, a:active, a:hover{
   }
 
   .cardTitle {
-    padding-top: 110px;
+    padding-top: 100px;
     font-size: 30px;
   }
 
@@ -126,7 +137,7 @@ a:link, a:visited, a:active, a:hover{
   }
 
   .cardTitle {
-    padding-top: 140px;
+    padding-top: 120px;
     font-size: 38px;
   }
 
