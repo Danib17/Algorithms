@@ -53,6 +53,7 @@ a:link, a:visited, a:active, a:hover{
 }
 
 .cpywrt {
+  padding-top: 30px;
   color: #03A9F4;
 }
 
@@ -74,8 +75,20 @@ a:link, a:visited, a:active, a:hover{
 }
 
 /*Screen Resolutions*/
+
+@media screen and (max-width: 736px) {
+  .catagory-card {
+    width: 240px;
+  }
+}
+
 /*When screen is at extra small*/
 @media screen and (max-width: 767px) {
+  body, html {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .catagory-card {
     height: 200px;
     margin-bottom: 25px;

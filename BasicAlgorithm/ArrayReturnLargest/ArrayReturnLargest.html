@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Visual FreeCodeCamp challanges</title>
     <link rel="stylesheet" href="../../assets/css/normalize.css">
-    <link rel="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../../assets/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../assets/css/master.css">
-    <script src="../../assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="arrayreturnlargest.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
     <script src="../../assets/js/main.js"></script>
     <script src="arrayreturnlargest.js"></script>
@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-sm-1 col-md-1">
           <div class="col-sm-1 col-md-1">
-            <a href="index.html">
+            <a href="../../index.html">
               <div class="homeIconBtn text-center">
                 <i class="fa fa-home homeIcon"></i>
               </div>
@@ -28,11 +28,37 @@
       </div> <!-- First Row -->
       <div class="row-fluid">
         <h1 id="homepageTitle-workspace" class="text-center">Return the largest number in Arrays</h1>
-        <div class="workspace">
 
-        </div>
       </div> <!-- Second Row -->
-      <h6 class="text-center cpywrt">Copyright 2016 - Zepold</h6>
     </div> <!-- Container -->
+    <div class="container-fluid workspace-fluid">
+      <div class="workspace">
+        <div id="ArrayInputs_">
+          <div id="ArrayInputsConsole_">
+            <button type="button" id="ArrayInputsButton1_" class="btn btn-primary" data-toggle="modal" data-target="#addModal" onclick="">Add</button>
+            <!-- Add modal -->
+            <div class="modal" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <input type="text"></input>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="$(this).TestinJQuery()">Add</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button id="ArrayInputsButton2_" onclick="">Remove</button>
+          </div>
+        </div> <!-- Input -->
+      </div> <!-- Workspace -->
+      <h6 class="text-center cpywrt">Copyright 2016 - Zepold</h6>
+    </div>
   </body>
 </html>
