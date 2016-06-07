@@ -7,19 +7,37 @@
 
 #ArrayInputsConsole_ {
   width: 100%;
-  height: 20%;
+  height: 25%;
   position: absolute;
   bottom: 0;
   background-color: black;
   text-align: center;
 }
 
-#ArrayInputsButton1_ {
-  margin-top: 13px;
+#ArrayInputsButton1_, #ArrayInputsButton2_, #ArrayInputsButton3_, #ArrayInputsButton4_ {
+  margin-top: 8px;
+  width: 80px;
+  height: 35px;
 }
 
-#ArrayInputsButton2_ {
-  margin-top: 13px;
+#ArrayInputBar_ {
+  width: 95%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 60px;
+}
+
+#ArrayDisplay_ {
+  width: 90%;
+  height: 85%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 4%;
 }
 
 @media screen and (max-width: 767px) {
@@ -37,11 +55,7 @@
     height: 40%;
   }
 
-  #ArrayInputsButton1_ {
-    margin-top: 7px;
-  }
-
-  #ArrayInputsButton2_ {
+  #ArrayInputsButton1_, #ArrayInputsButton2_, #ArrayInputsButton3_, #ArrayInputsButton4_ {
     margin-top: 7px;
   }
 }
